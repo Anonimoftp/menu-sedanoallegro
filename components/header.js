@@ -4,9 +4,9 @@ const Header = () => (
   <div className="header-wrapper">
     <div className="logo">
     <div>
-      <img width={200} height={100} src={`/static/images/LogoSedano_Piccolo.jpg`} />
+      <img width={200} height={100} src={`/images/LogoSedano_Piccolo.jpg`} alt='pippo'/>
     </div>    
-      <Link href="/">
+      <Link legacyBehavior href="/">
         <a>Menu - Al Sedano Allegro</a>
       </Link>
     </div>

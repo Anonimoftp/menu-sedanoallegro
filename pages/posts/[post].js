@@ -55,13 +55,13 @@ const Post = ({ post }) => {
   return (
     <div className="container post">
       <motion.div variants={backVariants}>
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a className="prova">Torna alla Lista</a>
         </Link>
       </motion.div>
 
       <motion.div initial="exit" animate="enter" exit="exit">
-        <motion.img variants={imageVariants} src={`/static/images/${post.id}.png`} />
+        <motion.img variants={imageVariants} src={`/public/images/${post.id}.png`} />
 
         <motion.div variants={textVariants}>          
           <PostInfo post={post} />

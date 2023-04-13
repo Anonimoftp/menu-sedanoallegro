@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
+import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
 import PostInfo from './post-info';
 
 const postVariants = {

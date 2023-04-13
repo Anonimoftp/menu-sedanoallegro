@@ -7,7 +7,7 @@ const Header = () => (
       <img width={200} height={100} src={`/images/LogoSedano_Piccolo.jpg`} alt='pippo'/>
     </div>    
       <Link legacyBehavior href="/">
-        <a>Menu - Al Sedano Allegro</a>
+        <a>Nuovo Menu - Al Sedano Allegro</a>
       </Link>
     </div>
 

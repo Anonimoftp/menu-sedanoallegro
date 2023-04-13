@@ -4,7 +4,7 @@
   "description": "Next.js + Framer Motion",
   "main": "index.js",
   "engines": {
-    "node": ">=16.0.0 <17.0.0"
+    "node": "16.x"
   },
   "dependencies": {
     "framer-motion": "10.11.5",

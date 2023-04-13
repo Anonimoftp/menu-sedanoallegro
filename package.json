@@ -11,9 +11,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && next start"
   },
   "repository": "git+https://github.com/Anonimoftp/menu-sedanoallegro.git",
   "keywords": [],

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Next.js + Framer Motion",
   "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0 <17.0.0"
+  },
   "dependencies": {
     "framer-motion": "10.11.5",
     "next": "^13.3.0",

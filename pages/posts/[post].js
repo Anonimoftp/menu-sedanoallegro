@@ -61,7 +61,7 @@ const Post = ({ post }) => {
       </motion.div>
 
       <motion.div initial="exit" animate="enter" exit="exit">
-        <motion.img variants={imageVariants} src={`/public/images/${post.id}.png`} />
+        <motion.img variants={imageVariants} src={`/images/${post.id}.png`} />
 
         <motion.div variants={textVariants}>          
           <PostInfo post={post} />

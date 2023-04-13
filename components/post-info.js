@@ -3,7 +3,7 @@ const PostInfo = ({ post }) => {
     <div className="post-info">
       <div className="author">
         {/*
-        <img width={35} height={35} className="avatar" src={`/public/avatars/${post.author.avatar}`} />{' '} 
+        <img width={35} height={35} className="avatar" src={`/avatars/${post.author.avatar}`} />{' '} 
         <strong>{post.author.name}</strong> ({post.author.age})
         */}
       </div>
